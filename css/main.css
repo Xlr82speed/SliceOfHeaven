@@ -1,0 +1,269 @@
+html{
+    background: white;
+}
+
+body{
+    background-color: white;
+    float: none;
+    margin: 0px auto;
+    width: 95%;
+    max-width: 3000px;
+    min-width: 600px;
+}
+
+header{
+    background: white url(../images/logo.png) top right no-repeat;
+}
+
+header h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+header nav.horizontal{
+    border: 1px solid rgb(192,192,192);
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    height: 50px;
+    width: 1050px;
+    margin-left:100px;
+}
+
+header nav.horizontal li{
+    border: 1px solid rgb(171, 171, 171);
+    display: block;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    height: 30px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    margin: 10px;
+    text-align: center;
+    width: 12%;
+    background-color: rgba(76, 203, 146, 0.4);
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+header nav.horizontal li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+header nav.horizontal li a:hover{
+    color: yellow;
+}
+
+header nav.horizontal li:first-of-type{
+    margin-left: 4%;
+}
+
+header nav.horizontal li:last-of-type{
+    margin-right:4%
+}
+
+section#left{
+    float: left;
+    width: 20%;
+}
+
+section#center{
+    float: left;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+section#right{
+    float: right;
+    width:28%;
+}
+
+footer{
+    clear: left;
+}
+
+#compareTo{
+    padding: 2px;
+    float: left;
+    width: 95%
+}
+
+table td img{
+    margin: 2px;
+}
+
+section#center aside.specs {
+    float: right;
+    width: 35%;
+
+    border: 1px solid rgb(221,221,221);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    margin: 15px;
+}
+
+section#center aside li{
+    color: rgb(51,51,51);
+    font-size: 12px;
+    line-height:20px;
+    padding-left: 5px;
+    margin-left: 0px;
+}
+
+section#center aside.specs li:nth-of-type(odd) {
+    background-color: rgb(211,211,211);
+}
+
+section#center aside.specs li:nth-of-type(even){
+    background-color: blue;
+}
+
+section#center p{
+    font-family: "Comic Sans", Georgia, serif;
+}
+
+section#center div.buyMe{
+    float: right;
+    width: 35%;
+    height: 45px;
+    margin: 15px;
+    font-family: Arial;
+    font-size: 18px;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: yellow;
+    clear: both;
+}
+
+section#center div.buyMe p{
+    margin-left: 16px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+section#center div.buyMe a{
+    color: red;
+    text-decoration: none;
+}
+
+section#center div.buyMe a:hover{
+    color: teal;
+}
+
+section#center h2#perfHead{
+    margin-top: 40px;
+}
+
+section#left nav.vertical h1{
+    font-size: 14px;
+    text-align: center;
+    width: 85%;
+    color: white;
+    background-color: rgb( 22, 170, 167);
+}
+
+section#left nav.vertical ul li{
+    font-size: 12px;
+    line-height: 2;
+    margin: 5px 0px 5px 20px;
+}
+
+section#left nav.vertical ul li a{
+    color: red;
+}
+
+section#right div#followMe table{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+section#right div#followMe{
+    border: 1px solid blue;
+}
+
+section#right div#followMe p{
+    text-align: center;
+    color: teal;
+}
+
+section#right div#followMe table tr{
+    letter-spacing: 3px;
+    padding: 2px;
+    text-align: center;
+}
+
+
+section#right div#featureTutorial div{
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+section#right div#featureTutorial p{
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: darkblue;
+    margin-top: 8px;
+    text-decoration: underline;
+}
+
+section#right div#popArt{
+    position: fixed;
+    right: 3px;
+    top: 320px;
+
+    width: 310px;
+    height: 145px;
+    border: 2px solid rgb(229, 238, 222);
+    background-color: rgb(221,230,222);
+    visibility: hidden;
+}
+
+section#right div#popArt div{
+    margin: 5px;
+}
+
+section#right div#popArt div p#closeX{
+    padding: 2px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+section#right div#popArt div img{
+    margin-right: 5px;
+}
+
+section#right div#popArt div img{
+    font-family: Tahoma;
+    font-size: 14px;
+    padding-right: 8px;
+}
+
+footer{
+    border-top: 1px solid rgb(171, 171, 171);
+    text-align: center;
+}
+
+footer, footer span a{
+    font-size: 12px;
+    padding: 10px;
+    color: rgb(101, 101, 101);
+}
+
+footer span a:hover{
+    color: rgb(0, 167, 167);
+    text-decoration: underline;
+}
