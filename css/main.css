@@ -1,9 +1,10 @@
 html{
-    background: white;
+    background: black;
 }
 
+
 body{
-    background-color: white;
+    background-color: black;
     float: none;
     margin: 0px auto;
     width: 95%;
@@ -12,41 +13,34 @@ body{
 }
 
 header{
-    background: white url(../images/logo.png) top right no-repeat;
+    background:  url(../images/logo.png);
+    background-repeat:no-repeat;
+    background-size:contain;
 }
 
 header h1{
+    color:white;
     font-size: 50px;
     text-align: center;
     margin-top: 0px;
 }
 
 header nav.horizontal{
-    border: 1px solid rgb(192,192,192);
-
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-
-    height: 50px;
-    width: 1050px;
-    margin-left:100px;
+    margin-left:12%;
 }
 
 header nav.horizontal li{
     border: 1px solid rgb(171, 171, 171);
-    display: block;
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 12px;
+    font-size: 70%;
     font-weight: bold;
-    float: left;
-    height: 30px;
+    height: 100%;
     letter-spacing: 0px;
     line-height: 30px;
     margin: 10px;
     text-align: center;
-    width: 12%;
-    background-color: rgba(76, 203, 146, 0.4);
+    width:11%;
+    background-color: lightgray;
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -58,7 +52,7 @@ header nav.horizontal li a{
 }
 
 header nav.horizontal li a:hover{
-    color: yellow;
+    color: Red;
 }
 
 header nav.horizontal li:first-of-type{
@@ -70,197 +64,187 @@ header nav.horizontal li:last-of-type{
 }
 
 section#left{
-    float: left;
-    width: 20%;
+    margin-top: 20px;
 }
 
-section#center{
-    float: left;
-    width: 50%;
-    margin-bottom: 50px;
+section#left div.wrap {
+  margin-top:10%;
+  background-color: black;
+  border:solid;
+  border-color:darkcyan;
 }
 
-section#right{
-    float: right;
-    width:28%;
-}
-
-footer{
-    clear: left;
-}
-
-#compareTo{
-    padding: 2px;
-    float: left;
-    width: 95%
-}
-
-table td img{
-    margin: 2px;
-}
-
-section#center aside.specs {
-    float: right;
-    width: 35%;
-
-    border: 1px solid rgb(221,221,221);
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-
-    margin: 15px;
-}
-
-section#center aside li{
-    color: rgb(51,51,51);
-    font-size: 12px;
-    line-height:20px;
-    padding-left: 5px;
-    margin-left: 0px;
-}
-
-section#center aside.specs li:nth-of-type(odd) {
-    background-color: rgb(211,211,211);
-}
-
-section#center aside.specs li:nth-of-type(even){
-    background-color: blue;
-}
-
-section#center p{
-    font-family: "Comic Sans", Georgia, serif;
-}
-
-section#center div.buyMe{
-    float: right;
-    width: 35%;
-    height: 45px;
-    margin: 15px;
-    font-family: Arial;
-    font-size: 18px;
-    border: 1px solid rgb(221, 221, 221);
-    background-color: yellow;
-    clear: both;
-}
-
-section#center div.buyMe p{
-    margin-left: 16px;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: red;
-}
-
-section#center div.buyMe a{
-    color: red;
-    text-decoration: none;
-}
-
-section#center div.buyMe a:hover{
-    color: teal;
-}
-
-section#center h2#perfHead{
-    margin-top: 40px;
+section#left div.wrap h1{
+  color: red;
+  font-size: 20px;
+  text-align:center;
 }
 
 section#left nav.vertical h1{
-    font-size: 14px;
+    font-size: 25px;
     text-align: center;
-    width: 85%;
     color: white;
-    background-color: rgb( 22, 170, 167);
+    background-color:darkcyan;
 }
 
 section#left nav.vertical ul li{
+    background-color:white;
+    border: 1px solid rgb(171, 171, 171);
+    display: block;
     font-size: 12px;
-    line-height: 2;
-    margin: 5px 0px 5px 20px;
+    line-height: 3;
+    text-align:center;
 }
 
 section#left nav.vertical ul li a{
-    color: red;
+    color: blue;
+}
+
+
+section#center{
+    background-color:black;
+    margin-top:20px;
+}
+
+
+section#center div.bestSellingCake {
+    color: white;
+    font-size: 15px;
+    text-align:center;
+}
+
+section#center div.bestSellingCake div.imageBorder img{
+    border:solid;
+    border-color:white;
+    
+}
+
+section#center nav.specs {
+    width: 50%;
+    height:100%;
+    text-align:center;
+    font-size:15px;
+}
+
+section#center nav.specs li{
+    color: black;
+    padding: 1%;
+}
+
+section#center nav.specs li:nth-of-type(odd) {
+    background-color: white;
+}
+
+section#center nav.specs li:nth-of-type(even){
+    background-color: lightpink;
+}
+
+section#center nav.specs li#header {
+    font-size: 15px;
+    text-align:center;
+    color:white;
+    background-color:blue;
+    
+}
+
+section#center  div.buyMe {
+    margin-left: 60%;
+    margin-top:-130px;
+    font-family: Arial;
+    margin-bottom: 100px;
+  
+}
+
+section#center div.para {
+    font-size: 100%;
+    line-height: 1.6875;
+    font-family:Georgia;
+    margin-top:30px;
+    background-color:lightgray;
+    color: black;
+    padding:1%;
+    border-radius:5px;
+}
+
+section#center h2#paraHead{
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1%;
+}
+
+
+section#right{
+    background-color: lightgray;
+    margin-top:20px;
+    text-align:center;
+    color: teal;
+}
+section#right div#followMe p{
+ margin-top:3%;
 }
 
 section#right div#followMe table{
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-section#right div#followMe{
+    width:95%;
     border: 1px solid blue;
+    margin-left:3%;
 }
 
-section#right div#followMe p{
-    text-align: center;
-    color: teal;
+section#right div#followMe table th{
+    color:black;
+    font-size: 10px;
+    text-align:left;
 }
 
-section#right div#followMe table tr{
-    letter-spacing: 3px;
-    padding: 2px;
-    text-align: center;
+section#right div.featureTutorial div#vid {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:400px;
+	overflow:hidden;
+}
+
+section#right div.featureTutorial div#vid iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
 }
 
 
-section#right div#featureTutorial div{
-    margin-left: 50px;
-    margin-right: auto;
-}
-
-section#right div#featureTutorial p{
-    font-family: sans-serif;
-    font-size: 24px;
-    text-align: center;
-    color: darkblue;
-    margin-top: 8px;
-    text-decoration: underline;
-}
 
 section#right div#popArt{
     position: fixed;
     right: 3px;
-    top: 320px;
+    top: 50%;
+    font-size:100%;
 
     width: 310px;
     height: 145px;
-    border: 2px solid rgb(229, 238, 222);
+    border: 2px solid darkcyan;
     background-color: rgb(221,230,222);
     visibility: hidden;
 }
 
-section#right div#popArt div{
-    margin: 5px;
-}
 
 section#right div#popArt div p#closeX{
     padding: 2px;
     float: right;
     border: 2px solid black;
-    border-radius: 10px;
     color: black;
     cursor: pointer;
 }
 
-section#right div#popArt div img{
-    margin-right: 5px;
-}
-
-section#right div#popArt div img{
-    font-family: Tahoma;
-    font-size: 14px;
-    padding-right: 8px;
-}
 
 footer{
-    border-top: 1px solid rgb(171, 171, 171);
+    border-top: 1px solid white;
     text-align: center;
+    clear: left;
 }
 
 footer, footer span a{
     font-size: 12px;
     padding: 10px;
-    color: rgb(101, 101, 101);
+    color: white;
 }
 
 footer span a:hover{

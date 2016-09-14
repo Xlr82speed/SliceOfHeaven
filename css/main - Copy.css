@@ -1,0 +1,276 @@
+html{
+    background: black;
+}
+
+body{
+    background-color: black;
+    float: none;
+    margin: 0px auto;
+    width: 95%;
+    max-width: 3000px;
+    min-width: 600px;
+}
+
+header{
+    background:  url(../images/logo.png) no-repeat;
+}
+
+header h1{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+header nav.horizontal{
+    height: 50px;
+    width: 1050px;
+    margin-left:100px;
+}
+
+header nav.horizontal li{
+    border: 1px solid rgb(171, 171, 171);
+    display: block;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    height: 30px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    margin: 15px;
+    text-align: center;
+    width: 12%;
+    background-color: lightgray;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+header nav.horizontal li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+header nav.horizontal li a:hover{
+    color: Red;
+}
+
+header nav.horizontal li:first-of-type{
+    margin-left: 4%;
+}
+
+header nav.horizontal li:last-of-type{
+    margin-right:4%
+}
+
+section#left{
+    margin-top: 20px;
+    float: left;
+    width: 20%;
+}
+
+section#left nav.vertical h1{
+    font-size: 25px;
+    text-align: center;
+    width: 85%;
+    color: white;
+    background-color:darkgray;
+}
+
+section#left nav.vertical ul li{
+    background-color:lightgrey;
+    border: 1px solid rgb(171, 171, 171);
+    display: block;
+    font-size: 12px;
+    line-height: 3;
+    text-align:center;
+    margin-left: 0px;
+    width:85%;
+}
+
+section#left nav.vertical ul li a{
+    color: blue;
+}
+
+
+section#center{
+    background-color:black;
+    float: left;
+    margin-top:20px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+section#center aside.specs {
+    float: right;
+    width: 35%;
+    text-align:center;
+
+    border: 1px solid rgb(221,221,221);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+section#center aside.specs h1 {
+    margin-left:40px;
+    font-size: 15px;
+    color:white;
+     width: 35%
+}
+
+section#center aside li{
+    color: rgb(51,51,51);
+    font-size: 12px;
+    line-height:20px;
+    padding-left: 5px;
+    margin-left: 0px;
+}
+
+section#center aside.specs li:nth-of-type(odd) {
+    background-color: deeppink;
+}
+
+section#center aside.specs li:nth-of-type(even){
+    background-color: white;
+}
+
+section#center div.bestSellingCake h1{
+    color: red;
+    font-size: 30px;
+    margin-left: 70px;
+    width: 85%;
+}
+
+
+section#center div.bestSellingCake {
+    color: white;
+    font-size: 15px;
+    margin-left: 0px;
+}
+
+
+section#center div.bestSellingCake div.buyMe{
+    float: right;
+    height: 50px;
+    width:25%;
+    margin-top:-100px;
+    margin-right:50px;
+    font-family: Arial;
+    font-size: 18px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius:30px;
+    background-color: red;
+}
+
+section#center div.bestSellingCake div.buyMe a{
+    margin-left:10px;
+    color:white;
+}
+section#center div.bestSellingCake div.buyMe h2{
+    float:right;
+    margin-top: 10px;
+    margin-right:60px;
+    color: white;
+}
+
+section#center div.bestSellingCake div.buyMe a:hover{
+    color: teal;
+}
+
+section#center h2#paraHead{
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px
+}
+
+section#center div.para {
+    background-color:lightgray;
+    color: black;
+    font-family: Geneva, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+section#right{
+    background-color: lightgray;
+    float: right;
+    margin-top:20px;
+    width:28%;
+    text-align:center;
+    color: teal;
+}
+
+section#right div#followMe table{
+    color:black;
+    margin-top: 5px;
+    margin-left: 35px;
+    border: 1px solid blue;
+}
+
+section#right div#followMe table tr{
+    letter-spacing: 3px;
+    padding: 2px;
+    text-align: center;
+}
+
+section#right div#featureTutorial vid{
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+section#right div#popArt{
+    position: fixed;
+    right: 3px;
+    top: 400px;
+
+    width: 310px;
+    height: 145px;
+    border: 2px solid rgb(229, 238, 222);
+    background-color: rgb(221,230,222);
+    visibility: hidden;
+}
+
+section#right div#popArt div{
+    margin: 5px;
+}
+
+section#right div#popArt div p#closeX{
+    padding: 2px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+section#right div#popArt div img{
+    margin-right: 5px;
+}
+
+section#right div#popArt div img{
+    font-family: Tahoma;
+    font-size: 14px;
+    padding-right: 8px;
+}
+
+footer{
+    border-top: 1px solid white;
+    text-align: center;
+    clear: left;
+}
+
+footer, footer span a{
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+}
+
+footer span a:hover{
+    color: rgb(0, 167, 167);
+    text-decoration: underline;
+}
