@@ -1,0 +1,82 @@
+﻿html{
+    background: black;
+}
+body{
+    background-color: black;
+    float: none;
+    margin: 0px auto;
+    width: 95%;
+    max-width: 3000px;
+    min-width: 600px;
+}
+
+header{
+    background:  url(../images/logo.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+header h1{
+    color:white;
+    font-size: 50px;
+    margin-left: 35%;
+    margin-top: 0px;
+}
+
+header nav.horizontal{
+    margin-left:12%;
+}
+
+header nav.horizontal li{
+    border: 1px solid rgb(171, 171, 171);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 70%;
+    font-weight: bold;
+    height: 100%;
+    letter-spacing: 0px;
+    line-height: 30px;
+    margin: 10px;
+    text-align: center;
+    width:11%;
+    background-color: lightgray;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+header nav.horizontal li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+header nav.horizontal li a:hover{
+    color: Red;
+}
+
+header nav.horizontal li:first-of-type{
+    margin-left: 4%;
+}
+
+header nav.horizontal li:last-of-type{
+    margin-right:4%
+}
+
+section.center{
+  margin-top:20px;
+  background-color:lightgray;
+}
+
+#wikiInfo .editsection, #wikiInfo .dablink, #wikiInfo .infobox, #wikiInfo .toc, #wikiInfo .noprint, #wikiInfo .hatnote,
+table, #wikiInfo p, #wikiInfo h2,#wikiInfo h3, #wikiInfo ul, #wikiInfo div.reflist{
+    display:none;
+}
+
+#wikiInfo{
+margin-left:40%;
+}
+
+section.center h1.specials{
+    color:red;
+    margin-left:28%;
+    font-size:50px;
+}

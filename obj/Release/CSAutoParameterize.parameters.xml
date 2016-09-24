@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SliceOfHeavenContext-Web.config Connection String" description="SliceOfHeavenContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=SliceOfHeavenContext-20160912203049; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|SliceOfHeavenContext-20160912203049.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Joel\\documents\\visual\ studio\ 2015\\Projects\\SliceOfHeaven\\SliceOfHeaven\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SliceOfHeavenContext']/@connectionString" />
+  </parameter>
+</parameters>
