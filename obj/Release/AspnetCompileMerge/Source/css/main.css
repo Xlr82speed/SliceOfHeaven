@@ -1,0 +1,253 @@
+html{
+    background: black;
+}
+
+
+body{
+    background-color: black;
+    float: none;
+    margin: 0px auto;
+    width: 95%;
+    max-width: 3000px;
+    min-width: 600px;
+}
+
+header{
+    background:  url(../images/logo.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+header h1{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+header nav.horizontal{
+    margin-left:12%;
+}
+
+header nav.horizontal li{
+    border: 1px solid rgb(171, 171, 171);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 70%;
+    font-weight: bold;
+    height: 100%;
+    letter-spacing: 0px;
+    line-height: 30px;
+    margin: 10px;
+    text-align: center;
+    width:11%;
+    background-color: lightgray;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+header nav.horizontal li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+header nav.horizontal li a:hover{
+    color: Red;
+}
+
+header nav.horizontal li:first-of-type{
+    margin-left: 4%;
+}
+
+header nav.horizontal li:last-of-type{
+    margin-right:4%
+}
+
+section#left{
+    margin-top: 20px;
+}
+
+section#left div.wrap {
+  margin-top:10%;
+  background-color: black;
+  border:solid;
+  border-color:darkcyan;
+}
+
+section#left div.wrap h1{
+  color: red;
+  font-size: 20px;
+  text-align:center;
+}
+
+section#left nav.vertical h1{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color:darkcyan;
+}
+
+section#left nav.vertical ul li{
+    background-color:white;
+    border: 1px solid rgb(171, 171, 171);
+    display: block;
+    font-size: 12px;
+    line-height: 3;
+    text-align:center;
+}
+
+section#left nav.vertical ul li a{
+    color: blue;
+}
+
+
+section#center{
+    background-color:black;
+    margin-top:20px;
+}
+
+
+section#center div.bestSellingCake {
+    color: white;
+    font-size: 15px;
+    text-align:center;
+}
+
+section#center div.bestSellingCake div.imageBorder img{
+    border:solid;
+    border-color:white;
+    
+}
+
+section#center nav.specs {
+    width: 50%;
+    height:100%;
+    text-align:center;
+    font-size:15px;
+}
+
+section#center nav.specs li{
+    color: black;
+    padding: 1%;
+}
+
+section#center nav.specs li:nth-of-type(odd) {
+    background-color: white;
+}
+
+section#center nav.specs li:nth-of-type(even){
+    background-color: lightpink;
+}
+
+section#center nav.specs li#header {
+    font-size: 15px;
+    text-align:center;
+    color:white;
+    background-color:blue;
+    
+}
+
+section#center  div.buyMe {
+    margin-left: 60%;
+    margin-top:-130px;
+    font-family: Arial;
+    margin-bottom: 100px;
+  
+}
+
+section#center div.para {
+    font-size: 100%;
+    line-height: 1.6875;
+    font-family:Georgia;
+    margin-top:30px;
+    background-color:lightgray;
+    color: black;
+    padding:1%;
+    border-radius:5px;
+}
+
+section#center h2#paraHead{
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1%;
+}
+
+
+section#right{
+    background-color: lightgray;
+    margin-top:20px;
+    text-align:center;
+    color: teal;
+}
+section#right div#followMe p{
+ margin-top:3%;
+}
+
+section#right div#followMe table{
+    width:95%;
+    border: 1px solid blue;
+    margin-left:3%;
+}
+
+section#right div#followMe table th{
+    color:black;
+    font-size: 10px;
+    text-align:left;
+}
+
+section#right div.featureTutorial div#vid {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:400px;
+	overflow:hidden;
+}
+
+section#right div.featureTutorial div#vid iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+
+
+section#right div#popArt{
+    position: fixed;
+    right: 3px;
+    top: 50%;
+    font-size:100%;
+
+    width: 310px;
+    height: 145px;
+    border: 2px solid darkcyan;
+    background-color: rgb(221,230,222);
+    visibility: hidden;
+}
+
+
+section#right div#popArt div p#closeX{
+    padding: 2px;
+    float: right;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+
+footer{
+    border-top: 1px solid white;
+    text-align: center;
+    clear: left;
+}
+
+footer, footer span a{
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+}
+
+footer span a:hover{
+    color: rgb(0, 167, 167);
+    text-decoration: underline;
+}

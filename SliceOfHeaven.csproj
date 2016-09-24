@@ -169,13 +169,14 @@
     <Content Include="index.html" />
     <Content Include="JavaScript\cupcakes.js" />
     <Content Include="JavaScript\customOrder.js" />
-    <Content Include="JavaScript\main1.js" />
+    <Content Include="JavaScript\index.js" />
     <Content Include="JavaScript\specials.js" />
     <Content Include="midnightKiss.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="JavaScript\customOrder.js.map" />
     <Content Include="JavaScript\main1.js.map" />
+    <Content Include="package.json" />
     <None Include="Properties\PublishProfiles\SliceOfHeaven - Web Deploy.pubxml" />
     <None Include="scripts\jquery-3.1.0.intellisense.js" />
     <Content Include="scripts\jquery-3.1.0.js" />
@@ -207,6 +208,8 @@
     <Content Include="scripts\jquery-3.1.0.slim.min.map" />
     <Content Include="scripts\jquery-3.1.0.min.map" />
     <Content Include="tsconfig.json" />
+    <Content Include="typings.json" />
+    <Content Include="tasks.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -220,7 +223,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="JavaScript\customOrder.ts" />
     <TypeScriptCompile Include="JavaScript\jquery\jquery.d.ts" />
-    <TypeScriptCompile Include="JavaScript\main1.ts" />
+    <TypeScriptCompile Include="JavaScript\index.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

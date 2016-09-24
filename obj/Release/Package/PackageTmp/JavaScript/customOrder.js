@@ -1,4 +1,3 @@
-/// <reference path="jquery/jquery.d.ts" />
 $(function () {
     // enter
     $("#searchTerm").keypress(function (e) {
